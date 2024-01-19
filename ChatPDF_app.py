@@ -14,7 +14,7 @@ from langchain.agents.agent_toolkits import VectorStoreToolkit
 from langchain.agents.agent_toolkits import VectorStoreInfo
 from PIL import Image
 
-st.title('🔗 Chat With PDF: Chat with your PDF in a conversational manner')
+st.title('🔗 ChatPDF: Chat with your PDF in a conversational manner')
 st.subheader('Load PDF -> Ask Questions -> Receive Answers.')
 
 image = Image.open('chatpdf_img.jpg')
